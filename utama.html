@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu dengan Frame</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        .container {
+            display: flex;
+            width: 100%;
+        }
+        
+        .frame-left {
+            width: 20%;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border: 2px solid rgb(129, 125, 64);
+            height: 50vh;
+        }
+
+        /* Menu Container */
+        .menu-container {
+            width: 80%;
+            background-color: #e0e0e0;
+            padding: 20px;
+        }
+
+        .menu-header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .menu-item {
+            margin: 10px 0;
+        }
+
+        .menu-item a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+        }
+
+        .menu-item a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Frame kecil sebelah kiri -->
+        <div class="frame-left">
+            <div class="menu-container">
+                <div class="menu-header">Menu</div>
+                <div class="menu-item"><a href="#">Judul</a></div>
+                <div class="menu-item"><a href="menu.html">Isi Menu</a></div>
+                <div class="menu-item"><a href="#">Isi</a></div>
+                <div class="menu-item"><a href="#">Link Saya</a></div>
+                <div class="menu-item"><a href="#">Link Lain</a></div>
+                <div class="menu-item"><a href="#">Link Lain Lagi</a></div>
+                <div class="menu-item"><a href="#">Link Aneh</a></div>
+            </div>
+            <!-- Isi frame kecil jika diperlukan -->
+        </div>
+
+        <!-- Menu di sebelah kanan -->
+    </div>
+
+</body>
+</html>
